@@ -16,5 +16,8 @@ for row in range(2, 10):
     ws1.cell(column=2, row=row, value=fake_data.email())
     ws1.cell(column=3, row=row, value=fake_data.password())
     ws1.cell(column=4, row=row, value=fake_data.address())
-
+# save file
 wb.save(filename=dest_filename)
+# read data
+print(ws1.cell(column=1, row=2).value)
+
