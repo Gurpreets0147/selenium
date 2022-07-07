@@ -8,8 +8,8 @@ print(driver.title)   #print title of webpage
 # driver.close()    #close webbrowser
 """
 from selenium import webdriver
-# renaming service to "ChromeService"
 from selenium.webdriver.chrome.service import Service as ChromeService
+# renaming service to "ChromeService"
 from webdriver_manager.chrome import ChromeDriverManager
 
 driver = webdriver.Chrome(service=ChromeService(
