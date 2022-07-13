@@ -18,5 +18,21 @@
 
  @XPath text()
  This method is used to find elements with exact text match
- (Example: <a herf='jfhgjfd'>some text</a>)
+ (Example: <a herf='https://jfhgjfd.com'>some text</a>)
  Format: XPath=//tagname[text()='some text')]
+
+ @XPath AND , OR 
+ It is very helpfull if you want to use that two attributes to find element on webpage
+ (Example: <div id='abc' class='def'>)
+ syntex: XPath=//tagname[@attribute='Value' or @attribute='Value']
+         XPath=//tagname[@attribute='Value' and @attribute='Value']
+ 
+ @XPath Axes methods (Parent, Child, Self)
+ it represents a relationship to the contex node
+ Parent: Selects the parent of the context (Current) node
+    //tagname[@attribute='Value']//parent::tagname
+ Child: Selects all children of the current node
+    //tagname[@attribute='Value']//child::tagname
+ Self: Selects the current node
+    //tagname[@attribute='Value']//self::tagname
+
