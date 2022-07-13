@@ -1,4 +1,3 @@
-
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 from selenium import webdriver
@@ -18,7 +17,7 @@ time.sleep(2)
 serach_results = driver.find_elements(
     By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/ul[1]/div/ul/li")  # add "li" mannyally
 for items in serach_results:
-    print(items.text, end=" ")
+    # print(items.text, end=" ")
     if "google pay" in items.text:
         items.click()
         time.sleep(5)

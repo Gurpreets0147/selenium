@@ -1,0 +1,22 @@
+ @Absolute XPath
+ it consist of complete path from the root element, it starts with single Forward slash '/'
+ it is brittle
+
+ @Relative XPath
+ with relative XPath, the XPath starts from the mid of the HTML DOM structure, It starts with double Forward slash '//'
+ it is less brittle
+
+ @XPath Starts-with
+ This XPath help in finding dynamic webelements
+ (Example: ID = session5645675, session5685343)
+ Format: XPath=//tagname[starts-with(@attribute,'vlaue')]
+
+ @XPath Contains
+ This XPath help in finding dynamic webelements
+ (Example: ID = 564session5675, 5685session343)
+ Format: XPath=//tagname[contains(@attribute,'vlaue')]
+
+ @XPath text()
+ This method is used to find elements with exact text match
+ (Example: <a herf='jfhgjfd'>some text</a>)
+ Format: XPath=//tagname[text()='some text')]
