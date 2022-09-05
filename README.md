@@ -7,3 +7,12 @@ pip freeze > requirements.txt
 https://www.selenium.dev/downloads/
 
 # Exiensions for find WebElements
+```
+modulules used
+Selenium
+Python
+Pytest
+Openyxl
+Reports (HTML,Allure)
+Pytest-xdist (Parallel execution)
+```
