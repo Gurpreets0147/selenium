@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Base/__pycache__
 ConfigFiles/__pycache__
 Pages/__pycache__
@@ -6,3 +7,6 @@ Screenshots/__pycache__
 TestCases/__pycache__
 TestData/__pycache__
 Utilities/__pycache__
+=======
+/__pycache__
+>>>>>>> 12a82563f44d33df4ff2bb3f0d1acc76117e5cf1
