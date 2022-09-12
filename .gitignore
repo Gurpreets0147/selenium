@@ -1,1 +1,8 @@
-/__pycache__
+Base/__pycache__
+ConfigFiles/__pycache__
+Pages/__pycache__
+Reports/__pycache__
+Screenshots/__pycache__
+TestCases/__pycache__
+TestData/__pycache__
+Utilities/__pycache__
